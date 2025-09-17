@@ -247,6 +247,7 @@ avatar: /assets/img/avatar.png
    author: ivan
    ```
    这样就可以在blog中的头部显示该篇文章是谁写，并且有一个可点击的链接。
+
 4. 添加图片：
    文章开头还可以添加以下参数，这个记录了当前文章中媒体的路径（比如图片），比这篇文章我就放在了
    ```yaml
@@ -254,6 +255,9 @@ avatar: /assets/img/avatar.png
    ```
    这样文章中的图片路径直接写图片名称即可。
 
-
+# Bug
+1. 之前一直出现local可以正常显示网页，但是部署到github上就只有index.html，也不知道是啥情况一直没搞好，结果最后重新跟着 chirpy start 走了一遍，就好了...
+2. 这篇文章中包含了不少 http 链接而不是 https，这导致commit之后在Action的时候出错了！所以简单修改一下
+   ![alt text](testsite.png)
 # Final
 差不多就这样了！折腾了小一天时间了，终于算了却了一桩想做但很一直没做的事情。

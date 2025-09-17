@@ -1,3 +1,30 @@
+<!-- ...existing code... -->
+# ivandon15.github.io — Personal Homepage
+
+Short Description:
+This is my personal homepage, built with Jekyll and the Chirpy theme. Content is placed in the _posts, pages, and assets directories, and generated static files are located in _site (this directory should not be pushed).
+
+Quick Run (Local Debugging):
+1. Install Ruby and Bundler (RubyInstaller is recommended for Windows). 2. In the repository root directory, run:
+```bash
+bundle install
+bundle exec jekyll serve
+```
+3. Open your browser to http://localhost:4000
+
+Common locations:
+- Posts: _posts/
+- Author information: _data/authors.yml (the author field is the author ID; this file will be used)
+- Site configuration: _config.yml
+- Theme assets and styles: assets/
+- GitHub Action CI: .github/workflows/pages-deploy.yml
+
+Template:
+- Uses the Chirpy theme (jekyll-theme-chirpy). The theme configuration and some local override files are retained for customization.
+
+License:
+MIT
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
