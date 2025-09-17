@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About
-
 > Building bridges between computational intelligence and molecular design.
 
 👋 Hi — I'm Ivan. I'm an algorithm engineer with a keen interest in life sciences, particularly pharmaceuticals. I currently have three years of experience working in AI-assisted cyclic peptide drug design. 
