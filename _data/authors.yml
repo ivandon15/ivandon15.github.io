@@ -11,3 +11,10 @@ ivan:
   # twitter: ivandeng
   url: https://github.com/ivandon15/
 
+chatgpt:
+  name: "ChatGPT"
+  url: "https://openai.com"
+
+gemini:
+  name: "Gemini"
+  url: "https://gemini.google.com/"
