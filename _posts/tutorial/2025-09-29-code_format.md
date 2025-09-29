@@ -157,8 +157,12 @@ pre-commit run --all-files
 1. 用 `pre-commit` 管理 Git hook。
 2. 用 `black` 自动格式化代码。
 3. 用 `flake8` 检查规范与错误。
-4. 配置完成之后按照之前 git commit 完之后会执行检查，避免问题流入代码库。
-5. ![alt text](pipeline.png)
+4. 配置完成之后按照之前 git commit 完之后会执行检查，避免问题流入代码库。\
+  ![alt text](pipeline.png)
 
-这样的工作流已经成为许多开源项目的标准实践，你完全可以在自己的项目里立即应用。
+
+如果你像我一样，实在不想解决一些flake8无关同样的警告且black已经成功运行了，那你也可以跳过检查，强制提交：
+```bash
+git commit --no-verify
+```
 ---
