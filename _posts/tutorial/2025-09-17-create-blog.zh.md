@@ -5,7 +5,7 @@ description: >-
 author: ivan
 date: '2025-09-17 18:31:17 +0800'
 categories: [Tutorial]
-tags: [blogs]
+tags: [skill]
 pin: false
 media_subpath: '/assets/img/posts/tutorial/2025-09-17-create-blog'
 ---
