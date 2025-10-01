@@ -255,8 +255,9 @@ avatar: /assets/img/avatar.png
    ```
    这样文章中的图片路径直接写图片名称即可。
 
-# Bug
+## Bug
 1. 之前一直出现local可以正常显示网页，但是部署到github上就只有index.html，也不知道是啥情况一直没搞好，结果最后重新跟着 chirpy start 走了一遍，就好了...
 2. 这篇文章中包含了不少 http 链接而不是 https，这导致commit之后在Action的时候出错了！我直接在pages-deploy.yml把整个Test site给注释了...
-# Final
+
+## Final
 差不多就这样了！折腾了小一天时间了，终于算了却了一桩想做但很一直没做的事情。
