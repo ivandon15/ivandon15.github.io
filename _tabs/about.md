@@ -27,6 +27,9 @@ If you're interested in AIDD, or if you're an experimentalist with a need for an
 - Chemistry tooling: OpenMM, RDKit, etc.
 - Engineering: Python, PyTorch, Linux
 
+### Publications
+Please see my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=4f8SOSYAAAAJ&view_op=list_works&gmla=AH8HC4w0ui359seBuzQ07gW4o79AdelhgCH33R5yjvyzhlDJxff8N_zOIxP7S7qUfVQIkFJZENZpkBXBgm8DO26MU8nZP0gkv2qk7RRtIXLt2abxi5G-O859IbKCeNqaearmiwe3ecDJXVEORlhhjZxQiFM).*
+
 ### Get in touch
 - Github: https://github.com/ivandon15  
 - Email: dengyifan@outlook.com
