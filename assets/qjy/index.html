@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 madeby ivan</title>
+    <link rel="stylesheet" href="qjy_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎂  钱璟源的生日快乐老虎机 🎂</h1>
+        <div class="slot-machine">
+            <div class="reels">
+                <div class="reel" id="reel1"><div class="reel-inner"></div></div>
+                <div class="reel" id="reel2"><div class="reel-inner"></div></div>
+                <div class="reel" id="reel3"><div class="reel-inner"></div></div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="coin-balance" id="coinBalance">🎂 生日硬币: 5</div>
+            <button class="spin-button" id="spinButton">拉杆</button>
+        </div>
+    </div>
+    
+    <div class="modal-overlay" id="prizeModal">
+        <div class="modal-card">
+            <h2 id="prizeTitle">🎉 中奖啦 🎉</h2>
+            <p id="prizeContent"></p>
+            <!-- <button class="modal-button" id="closePrizeModal">太棒了！</button> -->
+        </div>
+    </div>
+
+    <!-- 图片查看弹窗 -->
+    <div class="modal-overlay" id="imageViewModal">
+        <div class="modal-card image-modal">
+            <h2 id="imageTitle">🎉 恭喜获得奖品！ 🎉</h2>
+            <div class="image-container">
+                <img id="fullImage" src="" alt="" />
+            </div>
+            <button class="modal-button" id="closeImageModal">太棒了！</button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="buyCoinsModal">
+    <div class="modal-card">
+        <h2>哎呀，硬币用完啦！</h2>
+        <p><strong>请选择以下方式"充值"：</strong></p>
+        <div id="rechargeOptions" class="recharge-options">
+            <!-- 充值选项会在这里动态生成 -->
+        </div>
+    </div>
+</div>
+
+    <script src="qjy_script.js"></script>
+</body>
+</html>
