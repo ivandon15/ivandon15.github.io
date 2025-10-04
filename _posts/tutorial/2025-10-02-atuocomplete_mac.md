@@ -1,5 +1,5 @@
 ---
-title: 如何在MacOS终端中配置自动补全功能
+title: 在MacOS终端中使用自动补全功能
 description: >-
   用终端一个一个敲真的太累了，配置自动补全功能吧
 author: 
