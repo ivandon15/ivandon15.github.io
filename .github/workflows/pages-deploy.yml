@@ -50,6 +50,34 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      - name: Checkout Peptide Atlas
+        uses: actions/checkout@v6
+        with:
+          repository: ivandon15/PeptideAtlas
+          ref: main
+          path: .peptide-atlas-source
+          persist-credentials: false
+
+      - name: Setup Node for Peptide Atlas
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: .peptide-atlas-source/package-lock.json
+
+      - name: Build public Peptide Atlas
+        working-directory: .peptide-atlas-source
+        run: |
+          npm ci
+          npm run build:public
+        env:
+          VITE_ATLAS_DATA_URL: https://raw.githubusercontent.com/ivandon15/PeptideAtlas/main/data/public/snapshot.json
+
+      - name: Add Peptide Atlas to the built blog
+        run: |
+          mkdir -p "_site${{ steps.pages.outputs.base_path }}/peptide-atlas"
+          cp -R .peptide-atlas-source/dist-public/. "_site${{ steps.pages.outputs.base_path }}/peptide-atlas/"
+
       # - name: Test site
       #   run: |
       #     bundle exec htmlproofer _site \
@@ -58,7 +86,7 @@ jobs:
       #       \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
