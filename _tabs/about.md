@@ -6,7 +6,7 @@ order: 4
 
 > Building bridges between computational intelligence and molecular design.
 
-👋 Hi — I'm Ivan. I'm an algorithm engineer with a keen interest in life sciences, particularly pharmaceuticals. I currently have three years of experience working in AI-assisted cyclic peptide drug design. 
+👋 Hi — I'm Ivan, a Ph.D. student in Biology at Beijing Institute of Technology (2026–2030), jointly trained with Beijing Zhongguancun Academy. My research focuses on DNA-binding proteins. I also work on peptide-related projects as an intern at a biotechnology company, building on three years of experience in AI-assisted cyclic peptide drug design.
 
 If you're interested in AIDD, or if you're an experimentalist with a need for an AI model (such as AF3 or RFDiffusion), please contact me to discuss.
 
@@ -14,6 +14,7 @@ If you're interested in AIDD, or if you're an experimentalist with a need for an
 - 🎓 Education
   - B.Sc., Spatial Information & Digital Technology — Shanghai Ocean University (2020)  
   - M.IT (Artificial Intelligence) — The University of Melbourne (2022)
+  - Ph.D. in Biology (in progress) — Beijing Institute of Technology, jointly trained with Beijing Zhongguancun Academy (2026–2030)
 - 💼 Experience
   - 3 years working on AI Drug Design — model development, molecular representation, and ML-driven discovery workflows
 - 🔬 Interests
